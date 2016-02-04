@@ -95,7 +95,13 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+@font-face {
+    font-family: "orbit-b";
+    src: url("/assets/fonts/Samplino.eot?") format("eot"),
+         url("/assets/fonts/Samplino.ttf") format("truetype");
+}
+
+$header-font-family: 'orbit-b', Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
