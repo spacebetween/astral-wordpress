@@ -1,0 +1,15 @@
+.masonry{
+	width: 100%;
+	&_sizer, &_item {
+		@include breakpoint(medium) {
+			width: 33%;
+		}
+		width: 50%;
+		position: relative;
+	}
+	&_title {
+		position: absolute;
+		top: 0;
+	}
+}
+

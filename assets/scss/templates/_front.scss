@@ -154,15 +154,3 @@
 		box-sizing: border-box;
 	}
 }
-
-.masonry{
-	width: 100%;
-	&_sizer, &_item {
-		width: 33%;
-		position: relative;
-	}
-	&_title {
-		position: absolute;
-		top: 0;
-	}
-}
