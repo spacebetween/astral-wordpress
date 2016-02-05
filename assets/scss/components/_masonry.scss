@@ -1,5 +1,28 @@
 .masonry{
 	width: 100%;
+	&_item {
+		margin-bottom: 50px;
+		overflow: hidden;
+		img {
+			-webkit-transition: opacity 1s, -webkit-transform 1s;
+			transition: opacity 1s, transform 1s;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+		}
+		&:hover {
+			img {
+				-webkit-transform: scale3d(1.1,1.1,1);
+				transform: scale3d(1.1,1.1,1);
+			}
+			.masonry_title {
+				transform: translate3d(0,-50%,0) translate3d(0,-10px,0);
+			}
+			.masonry_content::before {
+				opacity: 1;
+				transform: translate3d(0,0,0);
+			}
+		}
+	}
 	&_sizer, &_item {
 		@include breakpoint(medium) {
 			width: 33%;
@@ -9,7 +32,37 @@
 	}
 	&_title {
 		position: absolute;
+		top: 50%;
+		text-align: center;
+		width: 100%;
+		transition: transform 0.35s, color 0.35s;
+		transform: translate3d(0,-50%,0);
+	}
+	&_link {
+		z-index: 1000;
+		text-indent: 200%;
+		white-space: nowrap;
+		font-size: 0;
+		opacity: 0;
+	}
+	&_link, &_content {
+		position: absolute;
 		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	&_content::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 75%);
+		content: '';
+		opacity: 0;
+		transform: translate3d(0,50%,0);
+		transition: opacity 0.35s, transform 0.35s;
 	}
 }
 
