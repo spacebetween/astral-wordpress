@@ -56,7 +56,10 @@ get_header(); ?>
 				?>
 				<div class="masonry_item">
 					<?php echo get_the_post_thumbnail( $page->ID, 'full' ); ?>
-					<h2 class="masonry_title"><?php echo $page->post_title; ?></h2>
+					<div class="masonry_content">
+						<h2 class="masonry_title"><?php echo $page->post_title; ?></h2>
+						<a class="masonry_link" href="<?php echo get_page_link( $page->ID ); ?>">View more</a>
+					</div>
 				</div>
 				<?php
 				}

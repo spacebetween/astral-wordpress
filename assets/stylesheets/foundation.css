@@ -6039,6 +6039,25 @@ table.hover tr:nth-of-type(even):hover {
 
 .masonry {
   width: 100%; }
+  .masonry_item {
+    margin-bottom: 50px;
+    overflow: hidden; }
+    .masonry_item img {
+      transition: opacity 1s, -webkit-transform 1s;
+      transition: opacity 1s, transform 1s;
+      transition: opacity 1s, transform 1s, -webkit-transform 1s;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+    .masonry_item:hover img {
+      -webkit-transform: scale3d(1.1, 1.1, 1);
+      transform: scale3d(1.1, 1.1, 1); }
+    .masonry_item:hover .masonry_title {
+      -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -10px, 0);
+              transform: translate3d(0, -50%, 0) translate3d(0, -10px, 0); }
+    .masonry_item:hover .masonry_content::before {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0); }
   .masonry_sizer, .masonry_item {
     width: 50%;
     position: relative; }
@@ -6047,7 +6066,40 @@ table.hover tr:nth-of-type(even):hover {
         width: 33%; } }
   .masonry_title {
     position: absolute;
-    top: 0; }
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transition: color 0.35s, -webkit-transform 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s, -webkit-transform 0.35s;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0); }
+  .masonry_link {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0; }
+  .masonry_link, .masonry_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .masonry_content::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 75%);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+            transform: translate3d(0, 50%, 0);
+    transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
 
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;
