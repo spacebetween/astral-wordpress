@@ -1,7 +1,8 @@
 .masonry{
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	&_item {
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 		overflow: hidden;
 		img {
 			-webkit-transition: opacity 1s, -webkit-transform 1s;
@@ -25,7 +26,7 @@
 	}
 	&_sizer, &_item {
 		@include breakpoint(medium) {
-			width: 33%;
+			width: 31%;
 		}
 		width: 50%;
 		position: relative;
