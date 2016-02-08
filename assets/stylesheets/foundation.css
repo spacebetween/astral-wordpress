@@ -6060,11 +6060,13 @@ table.hover tr:nth-of-type(even):hover {
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0); }
   .masonry_sizer, .masonry_item {
-    width: 50%;
+    width: 45%;
+    width: calc( ( 100% - 60px ) / 2);
     position: relative; }
     @media screen and (min-width: 40em) {
       .masonry_sizer, .masonry_item {
-        width: 31%; } }
+        width: 30%;
+        width: calc( ( 100% - 60px ) / 3); } }
   .masonry_title {
     position: absolute;
     top: 50%;
