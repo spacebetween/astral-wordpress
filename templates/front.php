@@ -4,12 +4,9 @@ Template Name: Front
 */
 get_header(); ?>
 
-<header id="front-hero" role="banner">
-	<div class="marketing">
-		<div class="tagline">
-			<h1>Light art, <br/>bright art</h1>
-		</div>
-	</div>
+<header class="hero hero-outdoor" role="banner">
+	<h1 class="hero_title">astral</h1>
+	<h2 class="hero_blag">light art bright art</h2>
 </header>
 
 <?php do_action( 'foundationpress_before_content' ); ?>
@@ -36,11 +33,6 @@ get_header(); ?>
 	</section>
 <?php endwhile;?>
 <?php do_action( 'foundationpress_after_content' ); ?>
-
-<div class="section-divider">
-	<hr />
-</div>
-
 
 <section>
 	<div class="masonry">

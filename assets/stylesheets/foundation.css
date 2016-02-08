@@ -6104,6 +6104,36 @@ table.hover tr:nth-of-type(even):hover {
     transition: opacity 0.35s, transform 0.35s;
     transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
 
+.hero {
+  text-align: center;
+  background: url("http://astral.spacebetween.io/wp-content/uploads/2016/02/outsideSmall.jpg") bottom center;
+  background-size: cover;
+  background-position: bottom;
+  padding: 4.0625rem 0;
+  margin: 0 0 2rem;
+  height: 28.125rem;
+  position: relative; }
+  @media screen and (min-width: 40em) {
+    .hero {
+      background: url("http://astral.spacebetween.io/wp-content/uploads/2016/02/outsideLarge.jpg") bottom center;
+      background-size: cover;
+      background-position: center;
+      height: 42.8125rem;
+      margin: 0 0 4.5rem; } }
+  .hero_title {
+    letter-spacing: 10px;
+    font-size: 3rem;
+    line-height: 1rem; }
+    @media screen and (min-width: 40em) {
+      .hero_title {
+        font-size: 5rem;
+        line-height: 2rem; } }
+  .hero_blag {
+    font-size: 1.4rem; }
+    @media screen and (min-width: 40em) {
+      .hero_blag {
+        font-size: 2.2rem; } }
+
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;
   background-size: cover;
