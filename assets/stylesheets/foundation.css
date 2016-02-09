@@ -5946,12 +5946,13 @@ table.hover tr:nth-of-type(even):hover {
   .main-navigation_item, .main-navigation .menu-item a {
     color: #fefefe; }
   .main-navigation_logo {
-    background-image: url("/wpAstral/wp-content/themes/spaceBetweenAstral/assets/images/astralLogoOrbit.svg");
+    background-image: url("/wp-content/themes/astral-wordpress/assets/images/astralLogoOutlinedType.svg");
     height: 45px;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100px;
-    display: block; }
+    display: block;
+    margin: 0 0 0 10px; }
 
 @media screen and (min-width: 40em) {
   .title-bar {
