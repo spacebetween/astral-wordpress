@@ -97,9 +97,9 @@ $block-grid-max: 8;
 // ------------------
 
 @font-face {
-    font-family: "orbit-b";
-    src: url("/assets/fonts/Samplino.eot?") format("eot"),
-         url("/assets/fonts/Samplino.ttf") format("truetype");
+    font-family: 'orbit-b';
+    src: url("/assets/fonts/orbit-b.eot?") format("eot"),
+         url("/assets/fonts/orbit-b.ttf") format("truetype");
 }
 
 $header-font-family: 'orbit-b', Helvetica, Roboto, Arial, sans-serif;
