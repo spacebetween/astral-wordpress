@@ -5943,7 +5943,7 @@ table.hover tr:nth-of-type(even):hover {
   @media screen and (max-width: 39.9375em) {
     .main-navigation {
       display: none !important; } }
-  .main-navigation a {
+  .main-navigation_item, .main-navigation .menu-item a {
     color: #fefefe; }
 
 @media screen and (min-width: 40em) {

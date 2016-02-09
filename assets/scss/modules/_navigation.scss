@@ -3,7 +3,7 @@
 .main-navigation {
   @include show-for(medium);
   padding: 20px 0;
-  a {
+  &_item, .menu-item a {
   	color: $white;
   }
 }
