@@ -41,10 +41,9 @@ get_header(); ?>
 	</section>
 <?php endwhile;?>
 <?php do_action( 'foundationpress_after_content' ); ?>
-<section class="section section-off contact">
-	<p class="lead contact_item">We are leading specialists in lighting and event production. Call to secure our expertise.</p>
-	<a href="" class="large button contact_item">01634 842500</a>
-</section>
+
+<?php get_template_part( 'parts/_contact' ); ?>
+
 <section>
 	<div class="masonry">
 		<div class="masonry_sizer"></div>
