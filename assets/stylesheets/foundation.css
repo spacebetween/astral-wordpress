@@ -5945,6 +5945,12 @@ table.hover tr:nth-of-type(even):hover {
       display: none !important; } }
   .main-navigation_item, .main-navigation .menu-item a {
     color: #fefefe; }
+  .main-navigation_home {
+    position: relative;
+    width: 120px;
+    top: -15px; }
+  .main-navigation_logo {
+    position: absolute; }
 
 @media screen and (min-width: 40em) {
   .title-bar {
