@@ -47,18 +47,18 @@
 					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
 				</ul>
 			</div>
-			<div class="top-bar-left">
+			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
 					<?php get_template_part( 'parts/mobile-top-bar' ); ?>
 				<?php endif; ?>
 			</div>
-			<div class="top-bar-right">
+<!-- 			<div class="top-bar-right">
 				<ul class="menu">
 				  <li><a href="" class="button">Call: 07000000</a></li>
 				</ul>
-			</div>
+			</div> -->
 		</nav>
 	</header>
 

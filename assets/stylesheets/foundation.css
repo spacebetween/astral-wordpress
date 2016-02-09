@@ -3396,7 +3396,7 @@ kbd {
   line-height: 1.4;
   color: #8a8a8a; }
 
-.lead {
+.lead, .contact_item {
   font-size: 125%;
   line-height: 1.6; }
 
@@ -5938,9 +5938,13 @@ table.hover tr:nth-of-type(even):hover {
   Add your scss files below to structure your project styles
 */
 /* Navigation breakpoints */
-@media screen and (max-width: 39.9375em) {
-  .main-navigation {
-    display: none !important; } }
+.main-navigation {
+  padding: 20px 0; }
+  @media screen and (max-width: 39.9375em) {
+    .main-navigation {
+      display: none !important; } }
+  .main-navigation a {
+    color: #fefefe; }
 
 @media screen and (min-width: 40em) {
   .title-bar {
@@ -6110,8 +6114,8 @@ table.hover tr:nth-of-type(even):hover {
   background-size: cover;
   background-position: bottom;
   padding: 4.0625rem 0;
-  margin: 0 0 2rem;
   height: 28.125rem;
+  height: 90vh;
   position: relative; }
   @media screen and (min-width: 40em) {
     .hero {
@@ -6119,7 +6123,7 @@ table.hover tr:nth-of-type(even):hover {
       background-size: cover;
       background-position: center;
       height: 42.8125rem;
-      margin: 0 0 4.5rem; } }
+      height: 90vh; } }
   .hero_title {
     letter-spacing: 10px;
     font-size: 3rem;
@@ -6133,6 +6137,28 @@ table.hover tr:nth-of-type(even):hover {
     @media screen and (min-width: 40em) {
       .hero_blag {
         font-size: 2.2rem; } }
+
+.contact {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .contact_item {
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    margin: 0 0.625rem; }
+
+.section {
+  margin: 2rem 0;
+  padding: 2rem 0; }
+  .section-off {
+    background: #121212; }
 
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;
@@ -6338,7 +6364,7 @@ table.hover tr:nth-of-type(even):hover {
         padding-right: 0.9375rem; } }
     #kitchen-sink header:last-child:not(:first-child) {
       float: right; }
-    #kitchen-sink header .lead {
+    #kitchen-sink header .lead, #kitchen-sink header .contact_item {
       font-size: 125%;
       line-height: 1.6; }
   #kitchen-sink #components {
