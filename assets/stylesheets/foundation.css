@@ -8,8 +8,8 @@
   Licensed under MIT Open Source
 */
 @font-face {
-  font-family: 'orbit-b';
-  src: url("/assets/fonts/orbit-b.eot?") format("eot"), url("/assets/fonts/orbit-b.ttf") format("truetype"); }
+  font-family: 'orbit-c';
+  src: url("wp-content/themes/astral-wordpress/assets/fonts/orbit-b.eot?") format("embedded-opentype"), url("wp-content/themes/astral-wordpress/assets/fonts/ORBITBN.woff") format("woff"), url("wp-content/themes/astral-wordpress/assets/fonts/ORBITBN.ttf") format("truetype"); }
 
 /**
  * Foundation for Sites by ZURB
@@ -3258,7 +3258,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "orbit-b", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "orbit-c", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
