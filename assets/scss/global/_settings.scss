@@ -69,7 +69,7 @@ $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
 
-$themeAssetsPath: '../wp-content/themes/astral-wordpress/assets/';
+$themeAssetsPath: '/wp-content/themes/astral-wordpress/assets/';
 
 // 2. Breakpoints
 // --------------
@@ -99,13 +99,13 @@ $block-grid-max: 8;
 // ------------------
 
 @font-face {
-  font-family: 'orbit-c';
+  font-family: 'orbit-b';
   src: 	url($themeAssetsPath + "fonts/orbit-b.eot?") format("embedded-opentype"),
-  			url("/wp-content/themes/astral-wordpress/assets/fonts/ORBITBN.woff") format("woff"),
-       	url($themeAssetsPath + "fonts/ORBITBN.ttf") format("truetype");
+  			url($themeAssetsPath + "fonts/orbit-b.woff") format("woff"),
+       	url($themeAssetsPath + "fonts/orbit-b.ttf") format("truetype");
 }
 
-$header-font-family: 'orbit-c', Helvetica, Roboto, Arial, sans-serif;
+$header-font-family: 'orbit-b', Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
