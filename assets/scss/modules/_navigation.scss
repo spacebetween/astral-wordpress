@@ -2,6 +2,18 @@
 
 .main-navigation {
   @include show-for(medium);
+  padding: 20px 0;
+  &_item, .menu-item a {
+  	color: $white;
+  }
+  &_home {
+  	position: relative;
+  	width: 120px;
+  	top: -15px;
+  }
+	&_logo {
+		position: absolute;
+	}
 }
 
 .title-bar {

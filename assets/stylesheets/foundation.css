@@ -3396,7 +3396,7 @@ kbd {
   line-height: 1.4;
   color: #8a8a8a; }
 
-.lead {
+.lead, .contact_item {
   font-size: 125%;
   line-height: 1.6; }
 
@@ -5938,9 +5938,19 @@ table.hover tr:nth-of-type(even):hover {
   Add your scss files below to structure your project styles
 */
 /* Navigation breakpoints */
-@media screen and (max-width: 39.9375em) {
-  .main-navigation {
-    display: none !important; } }
+.main-navigation {
+  padding: 20px 0; }
+  @media screen and (max-width: 39.9375em) {
+    .main-navigation {
+      display: none !important; } }
+  .main-navigation_item, .main-navigation .menu-item a {
+    color: #fefefe; }
+  .main-navigation_home {
+    position: relative;
+    width: 120px;
+    top: -15px; }
+  .main-navigation_logo {
+    position: absolute; }
 
 @media screen and (min-width: 40em) {
   .title-bar {
@@ -6103,6 +6113,58 @@ table.hover tr:nth-of-type(even):hover {
     transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
+
+.hero {
+  text-align: center;
+  background: url("http://astral.spacebetween.io/wp-content/uploads/2016/02/outsideSmall.jpg") bottom center;
+  background-size: cover;
+  background-position: bottom;
+  padding: 4.0625rem 0;
+  height: 28.125rem;
+  height: 90vh;
+  position: relative; }
+  @media screen and (min-width: 40em) {
+    .hero {
+      background: url("http://astral.spacebetween.io/wp-content/uploads/2016/02/outsideLarge.jpg") bottom center;
+      background-size: cover;
+      background-position: center;
+      height: 42.8125rem;
+      height: 90vh; } }
+  .hero_title {
+    letter-spacing: 10px;
+    font-size: 3rem;
+    line-height: 1rem; }
+    @media screen and (min-width: 40em) {
+      .hero_title {
+        font-size: 5rem;
+        line-height: 2rem; } }
+  .hero_blag {
+    font-size: 1.4rem; }
+    @media screen and (min-width: 40em) {
+      .hero_blag {
+        font-size: 2.2rem; } }
+
+.contact {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .contact_item {
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    margin: 0 0.625rem; }
+
+.section {
+  margin: 2rem 0;
+  padding: 2rem 0; }
+  .section-off {
+    background: #121212; }
 
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;
@@ -6308,7 +6370,7 @@ table.hover tr:nth-of-type(even):hover {
         padding-right: 0.9375rem; } }
     #kitchen-sink header:last-child:not(:first-child) {
       float: right; }
-    #kitchen-sink header .lead {
+    #kitchen-sink header .lead, #kitchen-sink header .contact_item {
       font-size: 125%;
       line-height: 1.6; }
   #kitchen-sink #components {

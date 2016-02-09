@@ -1,0 +1,7 @@
+.section {
+	margin: rem-calc(32) 0;
+	padding: rem-calc(32) 0;
+	&-off {
+		background: $off-black;
+	}
+}
