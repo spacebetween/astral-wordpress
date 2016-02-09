@@ -27,9 +27,6 @@ get_header(); ?>
 				<div class="entry-content columns small-12 medium-12 large-8">
 					<?php the_content(); ?>
 				</div>
-				<div class="columns small-12 medium-12 large-4">
-					<img src="http://astral.spacebetween.io/wp-content/uploads/2016/02/14830281956_0df51bb87b_o-1.jpg" alt="">
-				</div>
 				<footer>
 					<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
 					<p><?php the_tags(); ?></p>
