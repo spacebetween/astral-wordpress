@@ -5946,7 +5946,7 @@ table.hover tr:nth-of-type(even):hover {
   color: #fefefe; }
 
 .main-navigation_logo {
-  background-image: url("/wp-content/themes/astral-wordpress/assets/images/astralLogoActualBeams.svg");
+  background-image: url("/wp-content/themes/astral-wordpress/assets/images/astralLogo.svg");
   height: 70px;
   background-size: contain;
   background-repeat: no-repeat;
