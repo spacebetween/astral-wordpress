@@ -6121,7 +6121,6 @@ table.hover tr:nth-of-type(even):hover {
   background: url("http://astral.spacebetween.io/wp-content/uploads/2016/02/outsideSmall.jpg") bottom center;
   background-size: cover;
   background-position: bottom;
-  padding: 4.0625rem 0;
   height: 28.125rem;
   height: 90vh;
   position: relative; }
@@ -6132,13 +6131,14 @@ table.hover tr:nth-of-type(even):hover {
       background-position: center;
       height: 42.8125rem;
       height: 90vh; } }
+  .hero_container {
+    padding: 4.0625rem 0; }
   .hero_title {
-    letter-spacing: 10px;
     font-size: 3rem;
     line-height: 1rem; }
     @media screen and (min-width: 40em) {
       .hero_title {
-        font-size: 5rem;
+        font-size: 3.5rem;
         line-height: 2rem; } }
   .hero_blag {
     font-size: 1.4rem; }

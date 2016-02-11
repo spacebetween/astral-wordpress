@@ -6,8 +6,8 @@ get_header(); ?>
 
 <header class="hero hero-outdoor" role="banner">
 	<div class="hero_container">
-		<h1 class="hero_title">astral</h1>
-		<h2 class="hero_blag">light art bright art<br/>because we can</h2>
+		<h1 class="hero_title">light art bright art</h1>
+		<h2 class="hero_blag">because we can</h2>
 	</div>
 </header>
 <!-- <section class="row">
@@ -56,7 +56,7 @@ get_header(); ?>
 				if ( get_post_meta($page->ID, 'is_featuredService', true) == 1 ) {
 				?>
 				<div class="masonry_item">
-					<?php echo get_the_post_thumbnail( $page->ID, 'full' ); ?>
+					<?php echo get_the_post_thumbnail( $page->ID, 'medium' ); ?>
 					<div class="masonry_content">
 						<h2 class="masonry_title"><?php echo $page->post_title; ?></h2>
 						<a class="masonry_link" href="<?php echo get_page_link( $page->ID ); ?>">View more</a>

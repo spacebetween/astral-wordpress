@@ -18,11 +18,10 @@
 		padding: rem-calc(65%) 0;
 	}
 	&_title {
-		letter-spacing: 10px;
 		font-size: 3rem;
 		line-height: 1rem;
 		@include breakpoint(medium) {
-			font-size: 5rem;
+			font-size: 3.5rem;
 			line-height: 2rem;
 		}
 	}
