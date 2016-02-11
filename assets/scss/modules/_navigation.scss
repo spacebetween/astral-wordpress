@@ -2,18 +2,20 @@
 
 .main-navigation {
   @include show-for(medium);
-  margin: 20px 0;
   &_item, .menu-item a {
   	color: $white;
   }
 	&_logo {
-		background-image: url($themeAssetsPath + "images/astralLogoOutlinedType.svg");
-		height: 45px;
+		background-image: url($themeAssetsPath + "images/astralLogo.svg");
+		height: 70px;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 150px;
     display: block;
     margin: 0 0 0 10px;
+	}
+	&_nav {
+		margin: 20px 0;
 	}
 }
 
