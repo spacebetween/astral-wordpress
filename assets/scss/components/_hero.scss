@@ -3,7 +3,6 @@
 	background: url('http://astral.spacebetween.io/wp-content/uploads/2016/02/outsideSmall.jpg') bottom center;
 	background-size: cover;
 	background-position: bottom;
-	padding: rem-calc(65%) 0;
 	height: rem-calc(450);
 	height: 90vh;
 	position: relative;
@@ -14,6 +13,9 @@
 		background-position: center;
 		height: rem-calc(685);
 		height: 90vh;
+	}
+	&_container {
+		padding: rem-calc(65%) 0;
 	}
 	&_title {
 		letter-spacing: 10px;

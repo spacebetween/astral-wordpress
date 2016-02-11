@@ -5,8 +5,10 @@ Template Name: Front
 get_header(); ?>
 
 <header class="hero hero-outdoor" role="banner">
-	<h1 class="hero_title">astral</h1>
-	<h2 class="hero_blag">light art bright art</h2>
+	<div class="hero_container">
+		<h1 class="hero_title">astral</h1>
+		<h2 class="hero_blag">light art bright art<br/>because we can</h2>
+	</div>
 </header>
 <!-- <section class="row">
 	<div class="column usp">
