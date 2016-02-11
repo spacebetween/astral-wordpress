@@ -45,7 +45,7 @@
 			<div class="top-bar-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="main-navigation_logo" rel="home"></a>
 			</div>
-			<div class="top-bar-right">
+			<div class="top-bar-right main-navigation_nav">
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
