@@ -12,7 +12,10 @@
     background-repeat: no-repeat;
     width: 150px;
     display: block;
-    margin: 0 0 0 10px;
+    margin: 0 auto;
+    @include breakpoint(medium) {
+			margin: 0 0 0 10px;
+    }
 	}
 	&_nav {
 		margin: 20px 0;
@@ -32,8 +35,5 @@
 }
 
 .title-bar-title {
-  a {
-    font-size: 1rem;
-    color: #B9B9B9;
-  }
+	width: 80%;
 }

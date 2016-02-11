@@ -6,18 +6,10 @@ get_header(); ?>
 
 <header class="hero hero-outdoor" role="banner">
 	<div class="hero_container">
-		<h1 class="hero_title">light art bright art</h1>
+		<h1 class="hero_title">light art, bright art</h1>
 		<h2 class="hero_blag">because we can</h2>
 	</div>
 </header>
-<!-- <section class="row">
-	<div class="column usp">
-		<div class="usp_item">Staging</div>
-		<div class="usp_item">Lighting</div>
-		<div class="usp_item">Production</div>
-		<div class="usp_item">Design</div>
-	</div>
-</section> -->
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>

@@ -5952,7 +5952,10 @@ table.hover tr:nth-of-type(even):hover {
   background-repeat: no-repeat;
   width: 150px;
   display: block;
-  margin: 0 0 0 10px; }
+  margin: 0 auto; }
+  @media screen and (min-width: 40em) {
+    .main-navigation_logo {
+      margin: 0 0 0 10px; } }
 
 .main-navigation_nav {
   margin: 20px 0; }
@@ -5966,9 +5969,8 @@ table.hover tr:nth-of-type(even):hover {
   height: 100vh;
   padding: 1rem; }
 
-.title-bar-title a {
-  font-size: 1rem;
-  color: #B9B9B9; }
+.title-bar-title {
+  width: 80%; }
 
 #footer-container {
   max-width: 100%;
@@ -6138,7 +6140,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 4.0625rem 0; }
   .hero_title {
     font-size: 3rem;
-    line-height: 1rem; }
+    line-height: 3rem; }
     @media screen and (min-width: 40em) {
       .hero_title {
         font-size: 3.5rem;
