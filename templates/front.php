@@ -6,18 +6,10 @@ get_header(); ?>
 
 <header class="hero hero-outdoor" role="banner">
 	<div class="hero_container">
-		<h1 class="hero_title">light art bright art</h1>
+		<h1 class="hero_title">light art, bright art</h1>
 		<h2 class="hero_blag">because we can</h2>
 	</div>
 </header>
-<!-- <section class="row">
-	<div class="column usp">
-		<div class="usp_item">Staging</div>
-		<div class="usp_item">Lighting</div>
-		<div class="usp_item">Production</div>
-		<div class="usp_item">Design</div>
-	</div>
-</section> -->
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -40,35 +32,6 @@ get_header(); ?>
 	</section>
 <?php endwhile;?>
 <?php do_action( 'foundationpress_after_content' ); ?>
-
-<?php get_template_part( 'parts/_contact' ); ?>
-
-<section>
-	<div class="masonry">
-		<div class="masonry_sizer"></div>
-		<?php 
-			$args = array(
-				'post_type' => 'page',
-				'post_status' => 'publish'
-				); 
-			$pages = get_pages($args); 
-			foreach($pages as $page) {
-				if ( get_post_meta($page->ID, 'is_featuredService', true) == 1 ) {
-				?>
-				<div class="masonry_item">
-					<?php echo get_the_post_thumbnail( $page->ID, 'medium' ); ?>
-					<div class="masonry_content">
-						<h2 class="masonry_title"><?php echo $page->post_title; ?></h2>
-						<a class="masonry_link" href="<?php echo get_page_link( $page->ID ); ?>">View more</a>
-					</div>
-				</div>
-				<?php
-				}
-			}	
-		?>
-	</div>
-
-</section>
 
 
 
