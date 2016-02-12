@@ -6184,6 +6184,41 @@ table.hover tr:nth-of-type(even):hover {
 .color-darkGray {
   color: #8a8a8a; }
 
+.row-small {
+  max-width: 60rem; }
+
+.service {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+  background-size: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat; }
+  .service_container {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    z-index: 2;
+    position: relative; }
+  .service_mask {
+    background-color: #121212;
+    opacity: 0.6;
+    background-position: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+    @media screen and (min-width: 40em) {
+      .service_mask {
+        background-color: transparent;
+        background-image: linear-gradient(to right, #121212 40%, transparent);
+        opacity: 1; } }
+  .service_title {
+    margin-bottom: 1rem; }
+
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;
   background-size: cover;

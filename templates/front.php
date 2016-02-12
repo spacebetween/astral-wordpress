@@ -33,6 +33,7 @@ get_header(); ?>
 <?php endwhile;?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 
+<?php get_template_part( 'parts/_featuredServices' ); ?>
 
 
 <?php get_footer(); ?>

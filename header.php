@@ -55,6 +55,22 @@
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="main-navigation_logo" rel="home"></a>
 			</div>
 			<div class="top-bar-right main-navigation_nav">
+<!-- 				<div class="main-navigation_contact">
+					<ul class="menu color-mediumGray">
+						<li>
+							<a href="">FB</a>
+						</li>
+						<li>
+							<a href="">FB</a>
+						</li>
+						<li>
+							<a href="">FB</a>
+						</li>
+						<li>
+							<a href="">Call: 0000 000</a>
+						</li>
+					</ul>
+				</div> -->
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
