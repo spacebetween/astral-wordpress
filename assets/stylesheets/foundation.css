@@ -5979,7 +5979,6 @@ table.hover tr:nth-of-type(even):hover {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  border-top: 1px solid #ccc;
   margin-top: 3.75rem; }
   #footer-container #footer {
     max-width: 75rem;
@@ -6175,6 +6174,15 @@ table.hover tr:nth-of-type(even):hover {
   padding: 2rem 0; }
   .section-off {
     background: #121212; }
+
+.color-lightGray {
+  color: #e6e6e6; }
+
+.color-mediumGray {
+  color: #cacaca; }
+
+.color-darkGray {
+  color: #8a8a8a; }
 
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;
