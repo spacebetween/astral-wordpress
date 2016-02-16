@@ -1,10 +1,9 @@
 /* Navigation breakpoints */
 
 .main-navigation {
+	width: 100%;
   @include show-for(medium);
-  &.is-anchored {
-
-  }
+  
   &_item, .menu-item a {
   	color: $white;
   }
@@ -23,9 +22,6 @@
 	&_nav {
 		margin: 20px 0;
 	}
-	// &_contact {
-	// 	font-size: 1rem;
-	// }
 }
 
 .title-bar {
