@@ -2,6 +2,9 @@
 
 .main-navigation {
   @include show-for(medium);
+  &.is-anchored {
+
+  }
   &_item, .menu-item a {
   	color: $white;
   }

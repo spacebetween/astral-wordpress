@@ -42,7 +42,7 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" role="banner" data-sticky-container>
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="offCanvas"></button>
 			<div class="title-bar-title">
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
+		<nav id="site-navigation" class="main-navigation top-bar" role="navigation" data-sticky data-options="marginTop:0;" style="width:100%">
 			<div class="top-bar-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="main-navigation_logo" rel="home"></a>
 			</div>

@@ -6,7 +6,11 @@ get_header(); ?>
 
 <header class="hero hero-outdoor" role="banner">
 	<div class="hero_container">
-		<h1 class="hero_title">light art, bright art</h1>
+		<h1 class="hero_title link link-mallki">
+		light art, bright art
+		<span data-letters="light art, bright art"></span>
+		<span data-letters="light art, bright art"></span>
+		</h1>
 		<h2 class="hero_blag">because we can</h2>
 	</div>
 </header>
