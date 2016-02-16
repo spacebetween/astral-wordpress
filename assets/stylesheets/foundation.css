@@ -5942,7 +5942,8 @@ table.hover tr:nth-of-type(even):hover {
 */
 /* Navigation breakpoints */
 .main-navigation {
-  width: 100%; }
+  width: 100%;
+  z-index: 1000; }
   @media screen and (max-width: 39.9375em) {
     .main-navigation {
       display: none !important; } }

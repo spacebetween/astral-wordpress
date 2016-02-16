@@ -14,6 +14,7 @@ $heroTextColour = get_post_meta($pageID, 'heroTextColour', true);
 $heroHeaderText = get_post_meta($pageID, 'heroHeaderText', true);
 $heroBlagText = get_post_meta($pageID, 'heroBlagText', true);
 ?>
+
 <header class="hero hero-outdoor hero-<?php echo $heroTextColour; ?>" role="banner" style="background-image: url('<?php echo $featuredImage ?>');">
 	<div class="hero_container">
 		<h1 class="hero_title link link-mallki link-mallki-dark">

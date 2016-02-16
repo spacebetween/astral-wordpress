@@ -2,6 +2,7 @@
 
 .main-navigation {
 	width: 100%;
+	z-index: 1000;
 	@include show-for(medium);
 	
 	&_item, .menu-item a {
