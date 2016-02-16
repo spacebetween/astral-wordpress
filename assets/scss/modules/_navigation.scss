@@ -1,40 +1,39 @@
 /* Navigation breakpoints */
 
 .main-navigation {
-  @include show-for(medium);
-  &_item, .menu-item a {
-  	color: $white;
-  }
+	width: 100%;
+	@include show-for(medium);
+	
+	&_item, .menu-item a {
+		color: $white;
+	}
 	&_logo {
 		background-image: url($themeAssetsPath + "images/astralLogo.svg");
 		height: 70px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    @include breakpoint(medium) {
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 150px;
+		display: block;
+		margin: 0 auto;
+		@include breakpoint(medium) {
 			margin: 0 0 0 10px;
-    }
+		}
 	}
 	&_nav {
 		margin: 20px 0;
 	}
-	// &_contact {
-	// 	font-size: 1rem;
-	// }
 }
 
 .title-bar {
-  @include hide-for(medium);
+	@include hide-for(medium);
 }
 
 /* Mobile menu */
 .off-canvas {
-  ul#menu-main-menu {
-    height: 100vh;
-    padding: 1rem;
-  }
+	ul#menu-main-menu {
+		height: 100vh;
+		padding: 1rem;
+	}
 }
 
 .title-bar-title {

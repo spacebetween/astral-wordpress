@@ -42,7 +42,7 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" role="banner" data-sticky-container>
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="offCanvas"></button>
 			<div class="title-bar-title">
@@ -50,27 +50,11 @@
 			</div>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
+		<nav id="site-navigation" class="main-navigation top-bar" role="navigation" data-sticky data-options="marginTop:0;">
 			<div class="top-bar-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="main-navigation_logo" rel="home"></a>
 			</div>
 			<div class="top-bar-right main-navigation_nav">
-<!-- 				<div class="main-navigation_contact">
-					<ul class="menu color-mediumGray">
-						<li>
-							<a href="">FB</a>
-						</li>
-						<li>
-							<a href="">FB</a>
-						</li>
-						<li>
-							<a href="">FB</a>
-						</li>
-						<li>
-							<a href="">Call: 0000 000</a>
-						</li>
-					</ul>
-				</div> -->
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>

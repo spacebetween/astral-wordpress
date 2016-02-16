@@ -2,12 +2,27 @@
 /*
 Template Name: Front
 */
-get_header(); ?>
+get_header();
 
-<header class="hero hero-outdoor" role="banner">
+$pageID = get_the_ID();
+
+$thumb_id = get_post_thumbnail_id( $pageID );
+$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
+$featuredImage = $thumb_url_array[0];
+
+$heroTextColour = get_post_meta($pageID, 'heroTextColour', true);
+$heroHeaderText = get_post_meta($pageID, 'heroHeaderText', true);
+$heroBlagText = get_post_meta($pageID, 'heroBlagText', true);
+?>
+<header class="hero hero-outdoor hero-<?php echo $heroTextColour; ?>" role="banner" style="background-image: url('<?php echo $featuredImage ?>');">
 	<div class="hero_container">
-		<h1 class="hero_title">light art, bright art</h1>
-		<h2 class="hero_blag">because we can</h2>
+		<h1 class="hero_title link link-mallki link-mallki-dark">
+			<?php echo $heroHeaderText;?>
+			<!-- Uses two spans to draw the letters, don't delete it Luke. You spanner. -->
+			<span data-letters="<?php echo $heroHeaderText;?>"></span>
+			<span data-letters="<?php echo $heroHeaderText;?>"></span>
+		</h1>
+		<h2 class="hero_blag"><?php echo $heroBlagText;?></h2>
 	</div>
 </header>
 
