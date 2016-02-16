@@ -6670,7 +6670,8 @@ table.hover tr:nth-of-type(even):hover {
   outline: none;
   text-decoration: none;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  color: transparent; }
   .link-mallki {
     transition: color 0.5s 0.25s;
     overflow: hidden; }
@@ -6685,9 +6686,9 @@ table.hover tr:nth-of-type(even):hover {
       top: 50%;
       -webkit-transform: translate3d(-100%, 0, 0);
       transform: translate3d(-100%, 0, 0);
-      transition: -webkit-transform 0.4s;
-      transition: transform 0.4s;
-      transition: transform 0.4s, -webkit-transform 0.4s;
+      transition: -webkit-transform 0.8s;
+      transition: transform 0.8s;
+      transition: transform 0.8s, -webkit-transform 0.8s;
       transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
     .link-mallki span {
       position: absolute;
