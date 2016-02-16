@@ -6146,7 +6146,7 @@ table.hover tr:nth-of-type(even):hover {
       .hero_container {
         bottom: 10%; } }
   .hero_title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0; }
     @media screen and (min-width: 40em) {
       .hero_title {
