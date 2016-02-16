@@ -1,6 +1,5 @@
 .hero {
 	text-align: center;
-	background: url('http://astral.spacebetween.io/wp-content/uploads/2016/02/11879129706_26705ceff2_o.jpg') bottom center;
 	background-size: cover;
 	background-position: bottom;
 	height: rem-calc(450);
@@ -8,11 +7,15 @@
 	position: relative;
 
 	@include breakpoint(medium) {
-		background: url('http://astral.spacebetween.io/wp-content/uploads/2016/02/11879129706_26705ceff2_o.jpg') bottom center;
 		background-size: cover;
 		background-position: center;
 		height: rem-calc(685);
 		height: 90vh;
+	}
+	&-dark {
+		.hero_blag {
+			color: $black;
+		}
 	}
 	&_container {
 		padding-top: rem-calc(65%);
