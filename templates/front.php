@@ -17,10 +17,10 @@ $heroBlagText = get_post_meta($pageID, 'heroBlagText', true);
 <header class="hero hero-outdoor hero-<?php echo $heroTextColour; ?>" role="banner" style="background-image: url('<?php echo $featuredImage ?>');">
 	<div class="hero_container">
 		<h1 class="hero_title link link-mallki link-mallki-dark">
-		<?php echo $heroHeaderText;?>
-		<!-- Uses two spans to draw the letters, don't delete it Luke. You spanner. -->
-		<span data-letters="<?php echo $heroHeaderText;?>"></span>
-		<span data-letters="<?php echo $heroHeaderText;?>"></span>
+			<?php echo $heroHeaderText;?>
+			<!-- Uses two spans to draw the letters, don't delete it Luke. You spanner. -->
+			<span data-letters="<?php echo $heroHeaderText;?>"></span>
+			<span data-letters="<?php echo $heroHeaderText;?>"></span>
 		</h1>
 		<h2 class="hero_blag"><?php echo $heroBlagText;?></h2>
 	</div>
