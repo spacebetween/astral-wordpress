@@ -15,11 +15,11 @@
 
  <?php get_template_part( 'parts/featured-image' ); ?>
 
- <div id="page" role="main" data-sticky-container>
+ <div id="page" role="main">
 
  <?php do_action( 'foundationpress_before_content' ); ?>
  <?php while ( have_posts() ) : the_post(); ?>
-   <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+   <article <?php post_class('main-content') ?> id="content">
        <header>
            <h1 class="entry-title"><?php the_title(); ?></h1>
        </header>
@@ -38,9 +38,7 @@
  <?php endwhile;?>
 
  <?php do_action( 'foundationpress_after_content' ); ?>
- <div class="sticky" data-sticky>
- 	<?php get_sidebar(); ?>
- </div>
+ <?php get_sidebar(); ?>
 
  </div>
 
