@@ -17,7 +17,7 @@
 get_header(); ?>
 
 <div id="page" role="main">
-	<article class="main-content">
+	<article id="content" class="main-content">
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>

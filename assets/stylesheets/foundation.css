@@ -6147,7 +6147,7 @@ table.hover tr:nth-of-type(even):hover {
       .hero_container {
         bottom: 10%; } }
   .hero_title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin: 0; }
     @media screen and (min-width: 40em) {
       .hero_title {
@@ -6156,7 +6156,7 @@ table.hover tr:nth-of-type(even):hover {
       .hero_title {
         font-size: 6rem; } }
   .hero_blag {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1rem; }
     @media screen and (min-width: 40em) {
       .hero_blag {
@@ -6196,6 +6196,9 @@ table.hover tr:nth-of-type(even):hover {
 .row-small {
   max-width: 60rem; }
 
+.gallery-item {
+  border: 5px solid #fefefe; }
+
 .service {
   position: relative;
   display: -webkit-flex;
@@ -6212,7 +6215,7 @@ table.hover tr:nth-of-type(even):hover {
     position: relative; }
   .service_mask {
     background-color: #121212;
-    opacity: 0.6;
+    opacity: 0.8;
     background-position: 100%;
     position: absolute;
     top: 0;
@@ -6227,6 +6230,17 @@ table.hover tr:nth-of-type(even):hover {
         opacity: 1; } }
   .service_title {
     margin-bottom: 1rem; }
+
+.card {
+  margin: 2.5rem 0;
+  padding: 20px;
+  background: #121212; }
+  .card_header {
+    margin: 0 0 1rem; }
+  .card_image {
+    height: 12.5rem;
+    background-size: cover;
+    background-position: center; }
 
 #front-hero {
   background: url("https://c1.staticflickr.com/9/8454/8073697491_e2ae2330b3_k.jpg") bottom center;

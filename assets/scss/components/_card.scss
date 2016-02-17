@@ -1,0 +1,13 @@
+.card {
+	margin: 2.5rem 0;
+	padding: 20px;
+	background: $off-black;
+	&_header {
+		margin: 0 0 1rem;
+	}
+	&_image {
+		height: rem-calc(200);
+		background-size: cover;
+		background-position: center;
+	}
+}
