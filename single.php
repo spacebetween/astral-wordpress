@@ -11,7 +11,7 @@ get_header(); ?>
  <?php get_template_part( 'parts/featured-image' ); ?>
 
 
-<div id="single-post" role="main">
+<div id="single-post" role="main" data-sticky-container>
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -36,6 +36,8 @@ get_header(); ?>
 <?php endwhile;?>
 
 <?php do_action( 'foundationpress_after_content' ); ?>
-<?php get_sidebar(); ?>
+<div class="sticky" data-sticky>
+	<?php get_sidebar(); ?>
+</div>
 </div>
 <?php get_footer(); ?>
