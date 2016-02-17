@@ -8,9 +8,9 @@
  * @subpackage FoundationPress
  * @since FoundationPress 1.0.0
  */
-$thumb_id = get_post_thumbnail_id( get_the_ID() );
-$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', false);
-$featuredImage = $thumb_url_array[0];
+	$thumb_id = get_post_thumbnail_id( get_the_ID() );
+	$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', false);
+	$featuredImage = $thumb_url_array[0];
 ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry card'); ?>>
