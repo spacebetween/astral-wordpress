@@ -6199,6 +6199,9 @@ table.hover tr:nth-of-type(even):hover {
 .gallery-item {
   border: 5px solid #fefefe; }
 
+.dropdown {
+  z-index: 1000; }
+
 .service {
   position: relative;
   display: -webkit-flex;
