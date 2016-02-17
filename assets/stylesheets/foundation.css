@@ -6147,7 +6147,7 @@ table.hover tr:nth-of-type(even):hover {
       .hero_container {
         bottom: 10%; } }
   .hero_title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin: 0; }
     @media screen and (min-width: 40em) {
       .hero_title {
@@ -6156,7 +6156,7 @@ table.hover tr:nth-of-type(even):hover {
       .hero_title {
         font-size: 6rem; } }
   .hero_blag {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1rem; }
     @media screen and (min-width: 40em) {
       .hero_blag {
@@ -6212,7 +6212,7 @@ table.hover tr:nth-of-type(even):hover {
     position: relative; }
   .service_mask {
     background-color: #121212;
-    opacity: 0.6;
+    opacity: 0.8;
     background-position: 100%;
     position: absolute;
     top: 0;
