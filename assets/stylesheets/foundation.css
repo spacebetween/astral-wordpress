@@ -6196,6 +6196,9 @@ table.hover tr:nth-of-type(even):hover {
 .row-small {
   max-width: 60rem; }
 
+.gallery-item {
+  border: 5px solid #fefefe; }
+
 .service {
   position: relative;
   display: -webkit-flex;
