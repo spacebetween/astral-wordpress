@@ -6,6 +6,8 @@
 		margin: 0 0 rem-calc(32);
 		position: relative;
 		height: rem-calc(200);
+		border-top: 1px solid $dark-gray;
+		border-bottom: 1px solid $dark-gray;
 		}
 
 		.no-featured-image-set {
