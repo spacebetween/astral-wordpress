@@ -4656,7 +4656,7 @@ body {
         display: inline-block; } }
   .pagination a,
   .pagination button {
-    color: #0a0a0a;
+    color: #fefefe;
     display: block;
     padding: 0.1875rem 0.625rem;
     border-radius: 0; }
@@ -4677,7 +4677,7 @@ body {
   .pagination .ellipsis::after {
     content: '…';
     padding: 0.1875rem 0.625rem;
-    color: #0a0a0a; }
+    color: #fefefe; }
 
 .pagination-previous a::before,
 .pagination-previous.disabled::before {
@@ -6035,7 +6035,9 @@ table.hover tr:nth-of-type(even):hover {
   background-repeat: no-repeat;
   margin: 0 0 2rem;
   position: relative;
-  height: 12.5rem; }
+  height: 12.5rem;
+  border-top: 1px solid #8a8a8a;
+  border-bottom: 1px solid #8a8a8a; }
 
 .no-featured-image-set {
   height: 1rem !important; }
@@ -6129,7 +6131,9 @@ table.hover tr:nth-of-type(even):hover {
   background-position: bottom;
   height: 28.125rem;
   height: 90vh;
-  position: relative; }
+  position: relative;
+  border-top: 1px solid #8a8a8a;
+  border-bottom: 1px solid #8a8a8a; }
   @media screen and (min-width: 40em) {
     .hero {
       background-size: cover;
@@ -6197,7 +6201,7 @@ table.hover tr:nth-of-type(even):hover {
   max-width: 60rem; }
 
 .gallery-item {
-  border: 5px solid #fefefe; }
+  border: 1px solid #8a8a8a; }
 
 .dropdown {
   z-index: 1000; }
@@ -6210,7 +6214,8 @@ table.hover tr:nth-of-type(even):hover {
   margin-bottom: 2rem;
   background-size: 100%;
   background-position: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border: 1px solid #8a8a8a; }
   .service_container {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
