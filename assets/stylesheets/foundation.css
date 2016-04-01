@@ -6161,7 +6161,8 @@ table.hover tr:nth-of-type(even):hover {
   .hero_blag {
     font-size: 1.5rem;
     line-height: 1rem;
-    font-family: 'orbit-b'; }
+    font-family: 'orbit-b';
+    padding-top: 5px; }
     @media screen and (min-width: 40em) {
       .hero_blag {
         font-size: 3rem; } }
@@ -6214,7 +6215,9 @@ table.hover tr:nth-of-type(even):hover {
   margin-bottom: 2rem;
   background-size: 100%;
   background-position: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-top: 1px solid #8a8a8a;
+  border-bottom: 1px solid #8a8a8a; }
   .service_container {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
