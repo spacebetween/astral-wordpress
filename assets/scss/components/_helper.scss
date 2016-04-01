@@ -16,3 +16,9 @@
 .dropdown {
 	z-index: 1000;
 }
+.aligncenter {
+	@extend .float-center;
+}
+.alignright {
+	@extend .float-right;
+}
