@@ -6131,7 +6131,8 @@ table.hover tr:nth-of-type(even):hover {
   background-position: bottom;
   height: 28.125rem;
   height: 90vh;
-  position: relative; }
+  position: relative;
+  font-family: 'orbit-b'; }
   @media screen and (min-width: 40em) {
     .hero {
       background-size: cover;
@@ -6150,8 +6151,7 @@ table.hover tr:nth-of-type(even):hover {
         bottom: 10%; } }
   .hero_title {
     font-size: 2.3rem;
-    margin: 0;
-    font-family: 'orbit-b'; }
+    margin: 0; }
     @media screen and (min-width: 40em) {
       .hero_title {
         font-size: 4rem; } }

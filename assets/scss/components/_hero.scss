@@ -5,6 +5,7 @@
 	height: rem-calc(450);
 	height: 90vh;
 	position: relative;
+	font-family: 'orbit-b';
 	// border-top: 1px solid $dark-gray;
 	// border-bottom: 1px solid $dark-gray;
 
@@ -31,7 +32,6 @@
 	&_title {
 		font-size: 2.3rem;
 		margin: 0;
-		font-family: 'orbit-b';
 		@include breakpoint(medium) {
 			font-size: 4rem;
 		}
