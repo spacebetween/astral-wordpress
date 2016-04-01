@@ -3904,10 +3904,10 @@ select {
 .float-left {
   float: left !important; }
 
-.float-right {
+.float-right, .alignright {
   float: right !important; }
 
-.float-center {
+.float-center, .aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto; }
