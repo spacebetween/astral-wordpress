@@ -17,6 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="#0a0a0a">
 		<link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700|Roboto:400,700' rel='stylesheet' type='text/css'>
+		<meta name="p:domain_verify" content="13790da522bf25500eb6714ca63e9d38"/>
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/apple-touch-icon-72x72.png">
