@@ -5,8 +5,8 @@
 	height: rem-calc(450);
 	height: 90vh;
 	position: relative;
-	border-top: 1px solid $dark-gray;
-	border-bottom: 1px solid $dark-gray;
+	// border-top: 1px solid $dark-gray;
+	// border-bottom: 1px solid $dark-gray;
 
 	@include breakpoint(medium) {
 		background-size: cover;
