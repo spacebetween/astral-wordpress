@@ -15,7 +15,7 @@
 			$thumb_url = $thumb_url_array[0];
 		?>
 		<div class="row row-small service" style="background-image: url('<?php echo $thumb_url; ?>');">
-			<div class="service_mask"></div>
+			<a href="<?php echo get_page_link( $page->ID ); ?>" class="service_mask"></a>
 			<div class="column small-12 medium-6">
 				<div class="service_container">
 					<h3 class="service_title"><?php echo $page->post_title; ?></h3>
