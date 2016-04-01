@@ -6131,8 +6131,7 @@ table.hover tr:nth-of-type(even):hover {
   background-position: bottom;
   height: 28.125rem;
   height: 90vh;
-  position: relative;
-  font-family: 'orbit-b'; }
+  position: relative; }
   @media screen and (min-width: 40em) {
     .hero {
       background-size: cover;
@@ -6151,7 +6150,8 @@ table.hover tr:nth-of-type(even):hover {
         bottom: 10%; } }
   .hero_title {
     font-size: 2.3rem;
-    margin: 0; }
+    margin: 0;
+    font-family: 'orbit-b'; }
     @media screen and (min-width: 40em) {
       .hero_title {
         font-size: 4rem; } }
@@ -6160,7 +6160,8 @@ table.hover tr:nth-of-type(even):hover {
         font-size: 6rem; } }
   .hero_blag {
     font-size: 1.5rem;
-    line-height: 1rem; }
+    line-height: 1rem;
+    font-family: 'orbit-b'; }
     @media screen and (min-width: 40em) {
       .hero_blag {
         font-size: 3rem; } }
