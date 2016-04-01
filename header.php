@@ -36,7 +36,6 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/mstile-144x144.png">
 		<meta name="msapplication-config" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/browserconfig.xml">
-		<meta name="google-site-verification" content="HiJ90azBlf9kxNx22ff2kyUPlQlENjL1buFYS011Mqw" />
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
